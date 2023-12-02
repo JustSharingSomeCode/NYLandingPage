@@ -1,0 +1,126 @@
+* {
+    font-family: Century Gothic, sans-serif;
+}
+
+.banner {
+    background: url('https://www.unitekcollege.edu/wp-content/uploads/2022/01/shutterstock_1180800871-scaled.jpg');
+    background-size: cover;
+    background-position: center;
+
+    width: 100%;
+    height: 500px;
+}
+
+.banner-overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.banner-padding {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.banner-title {
+    font-size: 80px !important;
+    font-weight: bold !important;
+    color: white !important;
+}
+
+.banner-subtitle {
+    font-size: 30px !important;
+    color: white !important;
+}
+
+h1{
+    font-size: 40px !important;
+    color: #244564 !important;
+    font-weight: bold !important;
+}
+
+.service-item{
+    max-width: 200px;
+    width: 200px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-item p{
+    font-weight: bold;
+    font-size: 15px;
+
+    text-align: center;
+}
+
+.service-icon{
+    width: 100px;
+    height: 100px;
+
+    background-color: #f6f6f6;
+    border-radius: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-icon img{
+    width: 60px;
+    height: 60px;
+}
+
+footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #244564;
+}
+
+footer hr{
+    color: white;
+}
+
+.footer-gap{
+    gap: 80px;
+}
+
+.contact-item{
+    display: flex;
+    gap: 20px;
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-item img{
+    width: 50px;
+    height: auto;
+}
+
+.contact-item p{
+    margin: 0px;
+    padding: 0px;
+
+    color: white;
+    font-weight: bold;
+}
+
+.dot-divider{
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+
+.freepik-attribution{
+    color: white;
+}
+
+.freepik-attribution a{
+    color: white;
+}
